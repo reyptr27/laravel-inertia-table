@@ -9,7 +9,7 @@ jobs:
       fail-fast: true
       matrix:
         php: [8.2, 8.1]
-        laravel: ["11"]
+        laravel: ["9", "10"]
         dependency-version: [prefer-lowest, prefer-stable]
 
     name: L${{ matrix.laravel}} - P${{ matrix.php }} - ${{ matrix.dependency-version }}
