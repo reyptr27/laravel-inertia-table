@@ -14,7 +14,7 @@
         "laravel/breeze": "^1.9",
         "laravel/dusk": "^7.0",
         "laravel/framework": "^11.0",
-        "laravel/sanctum": "^2.8|^3.0",
+        "laravel/sanctum": "^3.0",
         "laravel/tinker": "^2.7",
         "reyptr27/laravel-inertia-table": "@dev",
         "spatie/laravel-query-builder": "^6.0",

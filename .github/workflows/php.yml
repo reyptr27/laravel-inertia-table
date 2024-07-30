@@ -53,11 +53,11 @@ jobs:
           extensions: dom, curl, libxml, mbstring, zip, pcntl, pdo, sqlite, pdo_sqlite, bcmath, soap, intl, gd, exif, iconv, imagick, mysql, mysqli, pdo_mysql
           coverage: none
 
-      - name: Downgrade to Laravel 9
+      - name: Downgrade to Laravel 10
         run: |
           cd app
           rm composer.json
-          mv composer-l9.json composer.json
+          mv composer-l10.json composer.json
         if: "matrix.laravel == '9'"
 
       - name: Prepare demo app
