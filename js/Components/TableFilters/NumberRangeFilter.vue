@@ -222,35 +222,35 @@ export default {
             main_bar: {
                 base: "h-2 rounded-full",
                 color: {
-                    primary: "bg-gray-200",
+                    primary: "bg-gray-200"
                 },
             },
             selected_bar: {
                 base: "h-2 rounded-full",
                 color: {
-                    primary: "bg-indigo-600",
+                    primary: "bg-indigo-600"
                 },
             },
             button: {
                 base: "h-4 w-4 rounded-full shadow border",
                 color: {
-                    primary: "bg-white border-gray-300",
+                    primary: "bg-white border-gray-300"
                 },
             },
             popover: {
                 base: "truncate text-xs rounded py-1 px-4",
                 color: {
-                    primary: "bg-gray-600 text-white",
+                    primary: "bg-gray-600 text-white"
                 },
             },
             popover_arrow: {
                 color: {
-                    primary: "text-gray-600",
+                    primary: "text-gray-600"
                 },
             },
             text: {
                 color: {
-                    primary: "text-gray-700",
+                    primary: "text-gray-700"
                 },
             },
         };

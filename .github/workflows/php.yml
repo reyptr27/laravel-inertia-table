@@ -58,7 +58,7 @@ jobs:
           cd app
           rm composer.json
           mv composer-l10.json composer.json
-        if: "matrix.laravel == '9'"
+        if: "matrix.laravel == '10'"
 
       - name: Prepare demo app
         run: |

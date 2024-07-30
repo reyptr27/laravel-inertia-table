@@ -132,13 +132,13 @@ const fallbackTheme = {
     input: {
         base: "flex-1 min-w-0 block w-full px-3 py-2 rounded-none rounded-r-md text-sm",
         color: {
-            primary: "border-gray-300 focus:ring-indigo-500 focus:border-indigo-500",
+            primary: "border-gray-300 focus:ring-indigo-500 focus:border-indigo-500"
         },
     },
     remove_button: {
         base: "rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2",
         color: {
-            primary: "text-gray-400 hover:text-gray-500 focus:ring-indigo-500",
+            primary: "text-gray-400 hover:text-gray-500 focus:ring-indigo-500"
         },
     },
 };

@@ -67,7 +67,7 @@ const fallbackTheme = {
     input: {
         base: "form-input block w-full pl-9 text-sm rounded-md shadow-sm",
         color: {
-            primary: "focus:ring-indigo-500 focus:border-indigo-500 border-gray-300",
+            primary: "focus:ring-indigo-500 focus:border-indigo-500 border-gray-300"
         },
     },
 };

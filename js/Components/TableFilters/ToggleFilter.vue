@@ -69,13 +69,13 @@ const fallbackTheme = {
         base: "w-11 h-6 rounded-full after:border after:rounded-full after:h-5 after:w-5",
         color: {
             primary: "after:bg-white after:border-white peer-checked:bg-indigo-500 bg-red-500",
-            disabled: "after:bg-white after:border-white bg-gray-200",
+            disabled: "after:bg-white after:border-white bg-gray-200"
         },
     },
     reset_button: {
         base: "rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2",
         color: {
-            primary: "text-gray-400 hover:text-gray-500 focus:ring-indigo-500",
+            primary: "text-gray-400 hover:text-gray-500 focus:ring-indigo-500"
         },
     },
 };
