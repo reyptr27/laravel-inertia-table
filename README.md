@@ -266,9 +266,8 @@ class UserIndexController
 You can install the package via either `npm` or `yarn`:
 
 ```bash
-npm install @reyptr27/laravel-intertia-table --save
+npm install @reyptr27/laravel-inertia-table --save
 
-yarn add @reyptr27/laravel-intertia-table
 ```
 
 Add the repository path to the `content` array of your [Tailwind configuration file](https://tailwindcss.com/docs/content-configuration). This ensures that the styling also works on production builds.
@@ -669,7 +668,7 @@ const themeVariables = {
         },
         global_search: {
             input: {
-                base: "block w-full pl-9 text-sm rounded-md shadow-sm",
+                base: "form-input block w-full pl-9 text-sm rounded-md shadow-sm",
                 color: {
                     primary: "focus:ring-indigo-500 focus:border-indigo-500 border-gray-300",
                 },
