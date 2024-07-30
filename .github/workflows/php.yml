@@ -8,8 +8,8 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: [8.2, 8.1]
-        laravel: ["9", "10"]
+        php: 8.2
+        laravel: ["10", "11"]
         dependency-version: [prefer-lowest, prefer-stable]
 
     name: L${{ matrix.laravel}} - P${{ matrix.php }} - ${{ matrix.dependency-version }}
